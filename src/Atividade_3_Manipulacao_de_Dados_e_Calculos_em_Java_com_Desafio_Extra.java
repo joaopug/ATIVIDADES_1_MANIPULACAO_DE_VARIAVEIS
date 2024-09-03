@@ -8,8 +8,8 @@ public class Atividade_3_Manipulacao_de_Dados_e_Calculos_em_Java_com_Desafio_Ext
         double prcTecMec = 150.60;
         int qtdTecMec = 38;
 
-        double txa = (double) 90 /100;
-        double lcr = (double) 30 /100;
+        double txa = 0.90;
+        double lcr = 0.30;
 
         // Cálculos
         // Primeiro cálcula o preço total de teclados mêcanicos
@@ -22,7 +22,7 @@ public class Atividade_3_Manipulacao_de_Dados_e_Calculos_em_Java_com_Desafio_Ext
         // Definir padrão
         // Cria um padrão novo com "R$", até 100mil não precisa ter número,
         // mas na casa "unidade" caso não tenha número, sera definido como "0".
-        // Define o "padrao" como um novo formato decimal (DecimalFormat)
+        // Define o "padrao2" como um novo formato decimal (DecimalFormat)
         // Cria um segundo padrão pra porcentagem (belo espaguete)
         String padrao = "R$ ###,##0.00";
         DecimalFormat df = new DecimalFormat(padrao);
